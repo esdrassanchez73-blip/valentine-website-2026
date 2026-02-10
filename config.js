@@ -1,67 +1,48 @@
-// ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
-// ============================================
-
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Brigitte",
 
-    // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
+    valentineName: "Brigitte",
     pageTitle: "Will You Be My Valentine? 💝"
 
-    // Floating emojis that appear in the background
-    // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: "['❤️', '💖', '💝', '💗', '💓'],"  // Heart emojis
-        bears: "['🧸', '🐻']"                       // Cute bear emojis
+        hearts: "['❤️', '💖', '💝', '💗', '💓'],"  
+        bears: "['🧸', '🐻']"                       
     },
-
-    // Questions and answers
-    // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you lob me?"                                    // First interaction
-            yesBtn: "Yes"                                            // Text for "Yes" button
-            noBtn: "No"                                               // Text for "No" button
-            secretAnswer: "I lob you so much❤️"           // Secret hover message
+            text: "Do you lob me?"                                    
+            yesBtn: "Yes"                                           
+            noBtn: "No"                                               
+            secretAnswer: "I lob you so much❤️"           
         },
         second: {
-            text: "How much do you love me?"                          // For the love meter
-            startText: "mucho mucho"                                   // Text before the percentage
-            nextBtn: "I HATE YOU"                                        // Text for the next button
+            text: "How much do you love me?"                         
+            startText: "mucho mucho"                                  
+            nextBtn: "I HATE YOU"                                       
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026?", // The big question!
-            yesBtn: "Yes!"                                             // Text for "Yes" button
-            noBtn: "FUT NO"                                                // Text for "No" button
+            text: "Will you be my Valentine on February 14th, 2026?", 
+            yesBtn: "Yes!"                                             
+            noBtn: "FUT NO"                                               
         }
     },
 
-    // Love meter messages
-    // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW you do lob me"  // Shows when they go past 5000%
-        high: "oh chetos"             // Shows when they go past 1000%
-        normal: "whattttt"                           // Shows when they go past 100%
+        extreme: "WOOOOW you do lob me"  
+        high: "oh chetos"             
+        normal: "whattttt"                           
     },
 
-    // Messages that appear after they say "Yes!"
     celebration: {
         title: "oh yea my pookie bear lob me",
         message: "Now come get this dih"
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
-    },
+        emojis: "🎁💖🤗💝💋❤️💕"  
 
-    // Color scheme for the website
-    // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#ffafbd",     
+        backgroundEnd: "#ffc3a0",       
+        buttonBackground: "#ff6b6b",     
+        buttonHover: "#ff8787",          
+        textColor: "#ff4757"             
     },
 
     // Animation settings
