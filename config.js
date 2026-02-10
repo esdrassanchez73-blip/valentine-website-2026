@@ -2,7 +2,7 @@
 // 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
 // ============================================
 
-/const CONFIG = {
+const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
     valentineName: "Brigitte",
