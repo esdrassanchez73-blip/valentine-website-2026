@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Brigitte",
+    valentineName: Brigitte
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: Will You Be My Valentine? 💝
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,36 +22,36 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you lob me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I lob you so much❤️"           // Secret hover message
+            text: Do you lob me?                                    // First interaction
+            yesBtn: Yes                                            // Text for "Yes" button
+            noBtn: No                                               // Text for "No" button
+            secretAnswer:I lob you so much❤️           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "mucho mucho",                                   // Text before the percentage
-            nextBtn: "I HATE YOU"                                         // Text for the next button
+            text: How much do you love me?                          // For the love meter
+            startText: mucho mucho                                   // Text before the percentage
+            nextBtn: I HATE YOU                                        // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "FUT NO"                                                 // Text for "No" button
+            text: Will you be my Valentine on February 14th, 2026? , // The big question!
+            yesBtn: Yes!                                             // Text for "Yes" button
+            noBtn: FUT NO                                                // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW you do lob me",  // Shows when they go past 5000%
-        high: "oh chetos",              // Shows when they go past 1000%
-        normal: "whattttt"                           // Shows when they go past 100%
+        extreme: WOOOOW you do lob me  // Shows when they go past 5000%
+        high: oh chetos             // Shows when they go past 1000%
+        normal: whattttt                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "oh yea my pookie bear lob me",
-        message: "Now come get this dih",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: oh yea my pookie bear lob me,
+        message: Now come get this dih
+        emojis: 🎁💖🤗💝💋❤️💕  // These will bounce around
     },
 
     // Color scheme for the website
